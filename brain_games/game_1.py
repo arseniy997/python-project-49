@@ -35,5 +35,5 @@ def game_1(user_name):
                          + f'Correct answer was "{correct_answer}". '
                          + f'Let\'s try again, {user_name}!')
 
-        if i == 3:
-            return print(f'Congratulations, {user_name}!')
+
+    return print(f'Congratulations, {user_name}!')
