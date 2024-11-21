@@ -10,3 +10,7 @@
 ### Game 2 - Calculator
 
 [![asciicast](https://asciinema.org/a/8Ls5c7MmR3av0hTsSyBhMFv4g.svg)](https://asciinema.org/a/8Ls5c7MmR3av0hTsSyBhMFv4g)
+
+### Game 3 - Greatest Common Divisor
+
+[![asciicast](https://asciinema.org/a/HYN5vAjHOg60xWtGPTc53blbC.svg)](https://asciinema.org/a/HYN5vAjHOg60xWtGPTc53blbC)
