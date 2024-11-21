@@ -28,7 +28,7 @@ def game_mechanic(rules, pair_question_answer):
         if user_answer == correct_answer:
             print("Correct!")
         elif user_answer != correct_answer:
-            return print(f'"{user_answer}" is wrong answer ;( '
+            return print(f'"{user_answer}" is wrong answer ;(. '
                          + f'Correct answer was "{correct_answer}". '
                          + f'Let\'s try again, {user_name}!')
 
