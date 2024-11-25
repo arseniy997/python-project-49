@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import random
-import brain_games.games.game_mechanic
+from brain_games.games.game_mechanic import game_mechanic
 
 
 ''' Game 2 - “Calculator”. The user is shown a random mathematical
@@ -10,10 +10,10 @@ The game is finished once a user gives 3 correct answers
 or 1 incorrect answer.'''
 
 
-rules_game_2 = 'What is the result of the expression?'
+RULES_GAME_2 = 'What is the result of the expression?'
 
 
-def get_question_answer_game_2():
+def generate_question_answer_game_2():
     symbols = ('+', '-', '*')
     expression = [random.randint(1, 100),
                   random.randint(1, 10),
@@ -32,8 +32,7 @@ def get_question_answer_game_2():
 
 
 def main():
-    brain_games.games.game_mechanic.game_mechanic(rules_game_2,
-                                                  get_question_answer_game_2)
+    game_mechanic(RULES_GAME_2, generate_question_answer_game_2)
 
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import random
-import brain_games.games.game_mechanic
+from brain_games.games.game_mechanic import game_mechanic
 
 
 ''' Game 3 - “Greatest common divisor”. The user is shown
@@ -10,10 +10,10 @@ The game is finished once a user gives 3 correct answers
 or 1 incorrect answer.'''
 
 
-rules_game_3 = 'Find the greatest common divisor of given numbers'
+RULES_GAME_3 = 'Find the greatest common divisor of given numbers.'
 
 
-def get_question_answer_game_3():
+def generate_question_answer_game_3():
     numbers = [random.randint(1, 100),
                random.randint(1, 100)]
 
@@ -33,8 +33,7 @@ def get_question_answer_game_3():
 
 
 def main():
-    brain_games.games.game_mechanic.game_mechanic(rules_game_3,
-                                                  get_question_answer_game_3)
+    game_mechanic(RULES_GAME_3, generate_question_answer_game_3)
 
 
 if __name__ == '__main__':
