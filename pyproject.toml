@@ -8,9 +8,7 @@ repository = "https://github.com/arseniy997/python-project-49"
 classifires = [
   "Development Status::4 - Beta",
   "Intended Audience::Other Audience",
-  "Private::Do Not Upload",
   "Programming Language::Python::3.12",
-  "Operatin System::POSIX::Linux",
 ]
 packages = [
   { include = "brain_games" }
