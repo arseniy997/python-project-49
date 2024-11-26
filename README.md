@@ -18,3 +18,7 @@
 ### Game 4 - Arithmetic progression
 
 [![asciicast](https://asciinema.org/a/lz8mRq08CTmGma65dXQ0BO6AR.svg)](https://asciinema.org/a/lz8mRq08CTmGma65dXQ0BO6AR)
+
+### Game 5 - Prime Number
+
+[![asciicast](https://asciinema.org/a/1Zxu5KiCXPX5xT4dkFvyfozwC.svg)](https://asciinema.org/a/1Zxu5KiCXPX5xT4dkFvyfozwC)

@@ -19,12 +19,7 @@ def generate_question_answer_game_3():
 
     question_value = f'{numbers[0]} {numbers[1]}'
 
-    if numbers[0] > numbers[1] is True:
-        smallest_number = numbers[1]
-    else:
-        smallest_number = numbers[0]
-
-    for i in range(smallest_number, 0, -1):
+    for i in range(min(numbers), 0, -1):
         if numbers[0] % i == 0 and numbers[1] % i == 0:
             correct_answer = str(i)
             break
