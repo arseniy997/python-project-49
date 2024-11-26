@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import random
-from brain_games.games.game_mechanic import game_mechanic
+from brain_games.games.game_mechanic import run_game
 
 
 ''' Game 3 - “Greatest common divisor”. The user is shown
@@ -21,14 +21,11 @@ def generate_question_answer_game_3():
 
     for i in range(min(numbers), 0, -1):
         if numbers[0] % i == 0 and numbers[1] % i == 0:
-            correct_answer = str(i)
-            break
-
-    return [question_value, correct_answer]
+            return [question_value, str(i)]
 
 
 def main():
-    game_mechanic(RULES_GAME_3, generate_question_answer_game_3)
+    run_game(RULES_GAME_3, generate_question_answer_game_3)
 
 
 if __name__ == '__main__':

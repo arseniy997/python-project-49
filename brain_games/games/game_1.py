@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import random
-from brain_games.games.game_mechanic import game_mechanic
+from brain_games.games.game_mechanic import run_game
 
 
 ''' Game 1 - “Parity Check”. The user is shown a random number
@@ -25,7 +25,7 @@ def generate_question_answer_game_1():
 
 
 def main():
-    game_mechanic(RULES_GAME_1, generate_question_answer_game_1)
+    run_game(RULES_GAME_1, generate_question_answer_game_1)
 
 
 if __name__ == '__main__':

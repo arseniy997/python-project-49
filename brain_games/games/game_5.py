@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import random
-from brain_games.games.game_mechanic import game_mechanic
+from brain_games.games.game_mechanic import run_game
 
 
 ''' Game 5 - “Prime number”. The user is shown a random
@@ -27,7 +27,7 @@ def generate_question_answer_game_5():
 
 
 def main():
-    game_mechanic(RULES_GAME_5, generate_question_answer_game_5)
+    run_game(RULES_GAME_5, generate_question_answer_game_5)
 
 
 if __name__ == '__main__':

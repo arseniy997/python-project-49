@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import random
-from brain_games.games.game_mechanic import game_mechanic
+from brain_games.games.game_mechanic import run_game
 
 
 ''' Game 4 - “Arithmetic progression”. The user is shown
@@ -16,11 +16,11 @@ RULES_GAME_4 = 'What number is missing in the progression?'
 def generate_question_answer_game_4():
     progression_length = random.randint(5, 10)
     first_number = random.randint(1, 50)
-    step = random.randint(1, 10)
+    progression_step = random.randint(1, 10)
     progression = [str(first_number)]
 
     for i in range(1, progression_length):
-        y = int(progression[-1]) + step
+        y = int(progression[-1]) + progression_step
         progression.append(str(y))
 
     correct_answer = progression[random.randint(0, (progression_length - 1))]
@@ -30,7 +30,7 @@ def generate_question_answer_game_4():
 
 
 def main():
-    game_mechanic(RULES_GAME_4, generate_question_answer_game_4)
+    run_game(RULES_GAME_4, generate_question_answer_game_4)
 
 
 if __name__ == '__main__':
