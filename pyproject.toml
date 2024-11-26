@@ -4,6 +4,11 @@ version = "0.1.0"
 description = "'Brain Games' is a student project on the Hexlet course for Python developers. It is a set of five simple games based on popular mobile apps for pumping up the brain. Each game asks questions that need to be answered correctly."
 authors = ["Arseniy Grekhov <arseniy997@gmail.com>"]
 readme = "README.md"
+classifires = [
+  "Development Status::4 - Beta",
+  "Intended Audience::Other Audience",
+  "Programming Language::Python::3.12",
+]
 repository = "https://github.com/arseniy997/python-project-49"
 packages = [
   { include = "brain_games" }
