@@ -1,9 +1,13 @@
-"Brain Games" is a student project on the Hexlet course for Python developers. It is a set of five simple games based on popular mobile apps for pumping up the brain. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to play it again.
-
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/arseniy997/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/arseniy997/python-project-49/actions)
 
 <a href="https://codeclimate.com/github/arseniy997/python-project-49"><img src="https://api.codeclimate.com/v1/badges/e2d8564876becd663ff9/maintainability" /></a>
+
+"Brain Games" is a student project on the Hexlet course for Python developers. It is a set of five simple games based on popular mobile apps for pumping up the brain. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to play it again.
+
+Installation: `make package-install`
+
+Dependencies: Python 3.12, prompt 0.4
 
 ### Game 1 - Parity Check
 
