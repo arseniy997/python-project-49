@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
 
-
 ''' Game 3 - “Greatest common divisor”. The user is shown
 2 random mnumbers and must write the greatest common divisor.
 

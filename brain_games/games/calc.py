@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
 
-
 ''' Game 2 - “Calculator”. The user is shown a random mathematical
 expression (only +, -, or *) and must calculate answer.
 

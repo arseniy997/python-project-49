@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
 
-
 ''' Game 1 - “Parity Check”. The user is shown a random number
 and must answer “yes” if it is even or "no" if it is uneven.
 

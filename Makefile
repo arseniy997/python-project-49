@@ -17,4 +17,4 @@ package-install:
 	pipx install --force dist/*.whl
 
 lint:
-	poetry run flake8 brain_games
+	poetry run ruff check --fix brain_games

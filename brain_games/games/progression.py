@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
 
-
 ''' Game 4 - “Arithmetic progression”. The user is shown
 a list of mnumbers with 1 number missing and must write this number.
 

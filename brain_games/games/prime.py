@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
 
-
 ''' Game 5 - “Prime number”. The user is shown a random
 number and must answer “yes” if it is prime or "no" if it is uneven.
 
