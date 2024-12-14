@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import random
-from brain_games.games.game_mechanic import run_game
 
 
 ''' Game 2 - “Calculator”. The user is shown a random mathematical
@@ -10,10 +9,10 @@ The game is finished once a user gives 3 correct answers
 or 1 incorrect answer.'''
 
 
-RULES_GAME_2 = 'What is the result of the expression?'
+GAME_RULES = 'What is the result of the expression?'
 
 
-def generate_question_answer_game_2():
+def generate_question_answer():
     SYMBOLS = ('+', '-', '*')
     expression = [random.randint(1, 100),
                   random.randint(1, 10),
@@ -31,9 +30,5 @@ def generate_question_answer_game_2():
     return [question_value, str(correct_answer)]
 
 
-def main():
-    run_game(RULES_GAME_2, generate_question_answer_game_2)
-
-
 if __name__ == '__main__':
-    main()
+    print('Cannot run this module. Run brain_calc.py instead.')

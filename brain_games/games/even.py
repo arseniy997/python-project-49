@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import random
-from brain_games.games.game_mechanic import run_game
 
 
 ''' Game 1 - “Parity Check”. The user is shown a random number
@@ -10,10 +9,10 @@ The game is finished once a user gives 3 correct answers or 1 incorrect answer
 (any answer except "yes" or "no" is counted as incorrect).'''
 
 
-RULES_GAME_1 = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def generate_question_answer_game_1():
+def generate_question_answer():
     question_value = random.randint(1, 500)
 
     if question_value % 2 == 0:
@@ -24,9 +23,5 @@ def generate_question_answer_game_1():
     return [question_value, correct_answer]
 
 
-def main():
-    run_game(RULES_GAME_1, generate_question_answer_game_1)
-
-
 if __name__ == '__main__':
-    main()
+    print('Cannot run this module. Run brain_even.py instead.')

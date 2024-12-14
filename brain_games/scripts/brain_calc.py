@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-import brain_games.games.game_2
+from brain_games.games.calc import GAME_RULES, generate_question_answer
+from brain_games.game_mechanic import run_game
 
 
-'''This script runs game_2 - "Calculator".'''
+'''This script runs game #2 - "Calculator".'''
 
 
 def main():
-    brain_games.games.game_2.main()
+    run_game(GAME_RULES, generate_question_answer)
 
 
 if __name__ == '__main__':

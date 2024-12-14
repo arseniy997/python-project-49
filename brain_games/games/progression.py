@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import random
-from brain_games.games.game_mechanic import run_game
 
 
 ''' Game 4 - “Arithmetic progression”. The user is shown
@@ -10,10 +9,10 @@ The game is finished once a user gives 3 correct answers
 or 1 incorrect answer.'''
 
 
-RULES_GAME_4 = 'What number is missing in the progression?'
+GAME_RULES = 'What number is missing in the progression?'
 
 
-def generate_question_answer_game_4():
+def generate_question_answer():
     progression_length = random.randint(5, 10)
     first_number = random.randint(1, 50)
     progression_step = random.randint(1, 10)
@@ -29,9 +28,5 @@ def generate_question_answer_game_4():
     return [' '.join(progression), correct_answer]
 
 
-def main():
-    run_game(RULES_GAME_4, generate_question_answer_game_4)
-
-
 if __name__ == '__main__':
-    main()
+    print('Cannot run this module. Run brain_progression.py instead.')

@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-import brain_games.games.game_5
+from brain_games.games.prime import GAME_RULES, generate_question_answer
+from brain_games.game_mechanic import run_game
 
 
-'''This script runs game_5 - "Prime number".'''
+'''This script runs game #5 - "Prime number".'''
 
 
 def main():
-    brain_games.games.game_5.main()
+    run_game(GAME_RULES, generate_question_answer)
 
 
 if __name__ == '__main__':
