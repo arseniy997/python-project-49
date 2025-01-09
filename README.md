@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/arseniy997/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/arseniy997/python-project-49/actions)
 
-[![Code Climate](https://codeclimate.com/github/cloudfoundry/membrane.png)](https://codeclimate.com/github/arseniy997/python-project-49)
+[![Code Climate](https://codeclimate.com/github/arseniy997/python-project-49.png)](https://codeclimate.com/github/arseniy997/python-project-49)
 
 "Brain Games" is a student project on the Hexlet course for Python developers. It is a set of five simple games based on popular mobile apps for pumping up the brain. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to play it again.
 
