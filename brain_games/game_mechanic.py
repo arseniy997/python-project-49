@@ -6,7 +6,6 @@ import brain_games.cli
 ''' run_game() is a function that is responsible for the overall
 logic (flow) of any brain game in the package.
 
-
 run_game() welcomes a user, prints rules, gets user answer,
 evaluates answer, shares evaluation with a user.
 
